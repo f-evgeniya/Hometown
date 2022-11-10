@@ -13,7 +13,7 @@ body {
   margin: 0 auto;
   max-width: 1120px;
   min-width: 320px;
-  padding: 56px 56px 20px 56px ;
+  padding: 56px 56px 20px 56px;
 }
 
 /* header */
@@ -37,13 +37,12 @@ body {
   align-items: center;
 }
 .nav-link {
-    text-decoration: none;
+  text-decoration: none;
   margin: 0 10px;
   font-size: 12px;
   letter-spacing: 3px;
   font-weight: 700;
-  padding: 5px 0 
-  
+  padding: 5px 0;
 }
 .nav-link:hover {
   color: #696969;
@@ -59,6 +58,7 @@ body {
 }
 .big-img {
   width: 100%;
+
   border-radius: 5px;
 }
 .hero-content {
@@ -77,12 +77,11 @@ body {
   border-bottom: 3px solid #000;
   padding: 20px 30px 20px 0;
 }
-.hero-small-container{
+.hero-small-container {
   width: 100%;
   grid-area: small;
 }
 .hero-small-img {
-  
   border-radius: 5px;
 }
 
@@ -111,17 +110,20 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.about-section-container,.gallery-section-container {
+.about-section-container,
+.gallery-section-container {
   margin-top: 70px;
   margin-left: 100px;
 }
-.about-section-title,.gallery-section-title {
+.about-section-title,
+.gallery-section-title {
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 3px;
   font-weight: 700;
 }
-.about-line,.gallery-line {
+.about-line,
+.gallery-line {
   border-bottom: 3px solid #000;
 }
 
@@ -236,8 +238,8 @@ body {
   font-display: column;
   align-items: center;
 }
-.blog-card{
- padding: 0 30px ;
+.blog-card {
+  padding: 0 30px;
 }
 .blog-img {
   border-left: 20px solid var(--accent-color);
@@ -245,7 +247,7 @@ body {
   border-radius: 5px;
 }
 
-.blog-heading{
+.blog-heading {
   margin-top: 32px;
   margin-bottom: 18px;
   font-size: 18px;
@@ -253,99 +255,94 @@ body {
   font-weight: 700;
   letter-spacing: 2px;
 }
-.blog-text{
+.blog-text {
   font-size: 16px;
 }
 
-
-.gallery-img-container{
+.gallery-img-container {
   margin-top: 50px;
-   
+
   display: flex;
   flex-direction: row;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
-.gallery-img{
+.gallery-img {
   width: 200px;
   height: 200px;
   border-radius: 5px;
 }
-.footer{
+.footer {
   background-color: var(--accent-color);
 }
-.footer-main-container{
+.footer-main-container {
   margin-top: 70px;
   padding: 40px;
- 
+
   display: flex;
 }
-.footer-title{
+.footer-title {
   padding: 0 30px;
   font-size: 24px;
   letter-spacing: 2px;
   font-weight: 700;
   margin-bottom: 0;
   text-transform: uppercase;
-
 }
-.footer-nav{
+.footer-nav {
   text-transform: uppercase;
-  
 }
-  .social-media{
-    margin-left: 30px;
-  }
-  .social-media-link{
-    padding: 0 15px;
-    font-size: 18px;
-  }
-  .social-media-link:hover{
-    color: #696969;
-  }
-  .subcribe-container{
-    margin-left: 40px;
-  }
-  .subscribe-heading{
-    font-size: 12px;
-    font-weight: 700;
+.social-media {
+  margin-left: 30px;
+}
+.social-media-link {
+  padding: 0 15px;
+  font-size: 18px;
+}
+.social-media-link:hover {
+  color: #696969;
+}
+.subcribe-container {
+  margin-left: 40px;
+}
+.subscribe-heading {
+  font-size: 12px;
+  font-weight: 700;
   letter-spacing: 2px;
   margin-bottom: 10px;
   text-transform: uppercase;
-  }
-  .email-input {
-    border-radius: 5px;
-    border: none;
-    width: 250px;
-    height: 35px;
-  }
-  .subscribe-btn{
-    padding: 10px 30px 10px;
-    height: 35px;
-    border-radius: 5px;
-    border: none;
-    background-color: #FFFFFF;
-    text-transform: uppercase;
-     font-size: 12px;
-    font-weight: 700;
+}
+.email-input {
+  border-radius: 5px;
+  border: none;
+  width: 250px;
+  height: 35px;
+}
+.subscribe-btn {
+  padding: 10px 30px 10px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffffff;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
   letter-spacing: 2px;
   transition: all 4ms ease-in-out;
-  }
-  .subscribe-btn:hover{
-    background-color: #d1cece;
-
-  }
-  .created{
-    font-size: 14px;
-    padding-left: 70px;
-    padding-bottom: 10px;
-  }
-  .created a {
-    color: var(--text-color);
-    text-decoration: none;
-    
-  }
-  .created a:hover{
-    color: #696969;
-  }
+}
+.subscribe-btn:hover {
+  background-color: #d1cece;
+}
+.created {
+  font-size: 14px;
+  padding-left: 70px;
+  padding-bottom: 10px;
+}
+.created a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+.created a:hover {
+  color: #696969;
+}
