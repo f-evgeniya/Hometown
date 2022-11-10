@@ -31,10 +31,10 @@
       <header class="header-content">
         <h1 class="logo">kharkiv</h1>
         <div class="header-nav">
-          <a href="#" class="nav-link">about</a>
-          <a href="#" class="nav-link">blog</a>
-          <a href="#" class="nav-link">gallery</a>
-          <a href="#" class="nav-link">contact</a>
+          <a href="#about" class="nav-link">about</a>
+          <a href="#blog" class="nav-link">blog</a>
+          <a href="#gallery" class="nav-link">gallery</a>
+          <a href="#subscribe" class="nav-link">contact</a>
         </div>
       </header>
 
@@ -59,7 +59,7 @@
 
       <!-- about section -->
       <div class="about-section-container">
-        <h3 class="about-section-title">about</h3>
+        <h3 class="about-section-title" id="about">about</h3>
         <div class="about-line"></div>
       </div>
       <!-- facts -->
@@ -162,7 +162,7 @@
       <!-- blog section -->
 
       <div class="blog-section-container">
-        <h3 class="blog-section-title">blog</h3>
+        <h3 class="blog-section-title" id="blog">blog</h3>
         <div class="blog-line"></div>
       </div>
 
@@ -205,7 +205,7 @@
 
       <!-- gallery section -->
       <div class="gallery-section-container">
-        <h3 class="gallery-section-title">gallery</h3>
+        <h3 class="gallery-section-title" id="gallery">gallery</h3>
         <div class="gallery-line"></div>
       </div>
       <!-- gallery img -->
@@ -228,27 +228,48 @@
       <!-- footer -->
       <footer class="footer">
         <div class="footer-main-container">
-        <h4 class="footer-title">Kharkiv</h4>
-        <div class="footer-nav">
-          <a href="#" class="nav-link">about</a>
-          <a href="#" class="nav-link">blog</a>
-          <a href="#" class="nav-link">gallery</a>
-          <a href="#" class="nav-link">contact</a>
+          <h4 class="footer-title">Kharkiv</h4>
+          <div class="footer-nav">
+            <a href="#about" class="nav-link">about</a>
+            <a href="#blog" class="nav-link">blog</a>
+            <a href="#gallery" class="nav-link">gallery</a>
+            <a href="#subscribe" class="nav-link">contact</a>
+          </div>
+          <div class="social-media">
+            <i class="fa-brands fa-facebook social-media-link"></i>
+            <i class="fa-brands fa-instagram social-media-link"></i>
+            <i class="fa-brands fa-twitter social-media-link"></i>
+          </div>
+          <div class="subcribe-container">
+            <h5 class="subscribe-heading" id="subscribe">Subscribe:</h5>
+            <form class="subscribe-form">
+              <input
+                type="email"
+                placeholder="Enter your email"
+                class="email-input"
+              />
+              <input type="button" value="Subscribe" class="subscribe-btn" />
+            </form>
+          </div>
         </div>
-        <div class="social-media">
-          <i class="fa-brands fa-facebook social-media-link"></i>
-          <i class="fa-brands fa-instagram social-media-link"></i>
-          <i class="fa-brands fa-twitter social-media-link"></i>
-        </div>
-        <div class="subcribe-container">
-          <h5 class="subscribe-heading">Subscribe:</h5>
-        <form class="email-form">
-          <input type="email" placeholder="Enter your email" class="email-input"/>
-          <button type="button" class="subscribe-btn">subscribe</button>
-        </form>
-        </div></div>
-        <p class="created">2022 Created by Evgeniya Firsova for <a href="https://www.shecodes.io/contests">Shecode.io</a>
-open-sourced on GitHub and hosted on <a href="https://www.netlify.com/">Netlify</a></p>
+        <p class="created">
+          2022 Created by
+          <a
+            href="https://www.shecodes.io/graduates/54185-evgeniya-firsova"
+            target="_blank"
+          >
+            Evgeniya Firsova</a
+          >
+          for
+          <a href="https://www.shecodes.io/contests" target="_blank"
+            >Shecode.io, </a
+          >open-sourced on
+          <a href="https://github.com/f-evgeniya/Hometown" target="_blank">
+            GitHub</a
+          >
+          and hosted on
+          <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+        </p>
       </footer>
     </div>
   </body>
